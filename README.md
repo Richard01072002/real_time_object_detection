@@ -19,7 +19,10 @@
 #### Step 9: Apply Non-Max Suppression
 #### Step 10: Draw bounding boxes and labels
 #### Step 11: Display the output
+        cv2.imshow("YOLOv4 Real-Time Object Detection", frame)
 #### Step 12: Exit the loop
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break;
 #### Step 13: Release resources
 
 ## program
@@ -102,6 +105,8 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-### Out put
+### Output
 <img width="1329" alt="Screenshot 2024-09-24 at 10 47 34 AM" src="https://github.com/user-attachments/assets/854e89d8-25bb-4387-b75a-03e8e2af4bf3">
 
+### Result 
+#### this project demonstrates how advanced neural networks like YOLOv4 can be used for real-time applications, blending efficiency and accuracy. With minimal setup, it can be adapted for various tasks such as security monitoring, robotics, or autonomous driving.
