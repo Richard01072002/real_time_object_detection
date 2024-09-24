@@ -4,8 +4,8 @@
 ### reg no. - 212222233005
 ### dep - AI & DS 
 ## AIM
-#### Real Time Object Detection
-## procedure
+#### Real Time Object Detection by using web camera
+## procedure 
 #### Step 1: Install OpenCV
 #### Step 2: Download YOLOv4 files
         Download yolov4.weights and yolov4.cfg from the YOLO repository.
