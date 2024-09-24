@@ -6,21 +6,21 @@
 ## AIM
 Real Time Object Detection
 ## procedure
-Step 1: Install OpenCV
-Step 2: Download YOLOv4 files
+#### Step 1: Install OpenCV
+#### Step 2: Download YOLOv4 files
         Download yolov4.weights and yolov4.cfg from the YOLO repository.
         Download the coco.names file for COCO class labels.
-Step 3: Load YOLOv4 model
-Step 4: Load COCO class labels
-Step 5: Set up YOLO output layers
-Step 6: Capture video from webcam
-Step 7: Process each video frame
-Step 8: Detect objects in the frame
-Step 9: Apply Non-Max Suppression
-Step 10: Draw bounding boxes and labels
-Step 11: Display the output
-Step 12: Exit the loop
-Step 13: Release resources
+#### Step 3: Load YOLOv4 model
+#### Step 4: Load COCO class labels
+#### Step 5: Set up YOLO output layers
+#### Step 6: Capture video from webcam
+#### Step 7: Process each video frame
+#### Step 8: Detect objects in the frame
+#### Step 9: Apply Non-Max Suppression
+#### Step 10: Draw bounding boxes and labels
+#### Step 11: Display the output
+#### Step 12: Exit the loop
+#### Step 13: Release resources
 
 ## program
 ```
